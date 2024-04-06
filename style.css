@@ -18,18 +18,20 @@ body{
 }
 
 .content{
-    max-width: 370px;
-    background-color: #132010;
+    max-width: 350px;
+    background-color: #7b8878;
     padding: 26px 15px;
     border-radius: 20px;
-    box-shadow: 0px 80px 50px -30px rgba(41, 168, 255, 0.2);
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
 }
 
 input{
-    width: 330px;
+    width: 300px;
     padding: 25px;
     margin: 10px;
-    background-color: transparent;
+    background-color: #132010;
     border: none;
     outline: none;
     font-size: 45px;
@@ -44,8 +46,8 @@ input::placeholder{
 button{
     border: none;
     outline: none;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 10px;
     background-color: #303632;
     font-size: 21px;
@@ -56,7 +58,7 @@ button{
 }
 
 .equal{
-    width: 144px;
+    width: 123px;
     background-color: #4b774b;
     font-weight: 700;
 }
@@ -69,5 +71,4 @@ button{
 
 .main{
     background-color: #4b774b;
-    
 }
